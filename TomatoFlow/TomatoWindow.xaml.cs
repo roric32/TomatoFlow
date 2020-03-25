@@ -234,8 +234,7 @@ namespace TomatoFlow
 
         private void BtnAbout_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TomatoFlow is free software. \n" +
-                "Feel free to redistribute!", "About TomatoFlow");
+            MessageBox.Show("TomatoFlow is free software, licensed under the GNU GPL3.", "About TomatoFlow");
         }
 
         public TomatoWindow()
