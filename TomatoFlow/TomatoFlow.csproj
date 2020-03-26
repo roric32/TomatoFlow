@@ -27,10 +27,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <SupportUrl>https://github.com/roric32/TomatoFlow</SupportUrl>
     <ProductName>TomatoFlow</ProductName>
-    <PublisherName>Brandon Thompson</PublisherName>
+    <PublisherName>TomatoFlow</PublisherName>
     <WebPage>publish.htm</WebPage>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

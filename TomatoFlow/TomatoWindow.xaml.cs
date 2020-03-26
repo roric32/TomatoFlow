@@ -200,6 +200,7 @@ namespace TomatoFlow
 
         private void BtnResting_Tomato_Click(object sender, RoutedEventArgs e)
         {
+            this.UpdateScore(0);
             this.ChangeState(State.BREAK);
         }
 
@@ -210,6 +211,7 @@ namespace TomatoFlow
 
         private void BtnParty_Tomato_Click(object sender, RoutedEventArgs e)
         {
+            this.UpdateScore(0);
             this.ChangeState(State.PARTY, true);
         }
 
