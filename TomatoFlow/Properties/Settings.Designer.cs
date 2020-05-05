@@ -58,5 +58,17 @@ namespace TomatoFlow.Properties {
                 this["PartyTime"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4")]
+        public int Cycles {
+            get {
+                return ((int)(this["Cycles"]));
+            }
+            set {
+                this["Cycles"] = value;
+            }
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace TomatoFlow
     /// </summary>
     public partial class TomatoWindow : Window
     {
-        private const int scoreBeforeParty = 4;
+        private int scoreBeforeParty;
         private readonly BitmapImage _studyGraphic;
         private readonly BitmapImage _restGraphic;
         private readonly BitmapImage _neutralGraphic;
@@ -260,6 +260,7 @@ namespace TomatoFlow
             this.WorkTime = Properties.Settings.Default.WorkTime;
             this.BreakTime = Properties.Settings.Default.BreakTime;
             this.PartyTime = Properties.Settings.Default.PartyTime;
+            this.scoreBeforeParty = Properties.Settings.Default.Cycles;
             
             this._soundPlayer = new System.Media.SoundPlayer();
 
