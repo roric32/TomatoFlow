@@ -8,7 +8,7 @@ Each time you complete a full work session, you add one to your score. Once you 
 
 TomatoFlow is a tool to help you work in this manner.
 When you click on "Work", the progress bar will begin to fill. Once the bar is full, it will automatically
-switch to a short break unless your score is 4 or more, at which point it will give you a long break (Party!).
+switch to a short break unless you've hit a user-specified number of cycles, at which point it will give you a long break (Party!).
 
 The times can be changed from the Settings->Options menu at the top of the application.
 
